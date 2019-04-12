@@ -16,7 +16,7 @@ theme = "infinity-hugo"
     # Hero Area
     [params.hero]
         enable      = true
-        bg          = "images/24_Interior.jpg"
+        bg          = "images/bg.jpg"
         title       = "BRING YOUR PRODUCT TO LIGHT"
         subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
         btnText     = "Get Started"
@@ -29,7 +29,7 @@ theme = "infinity-hugo"
         enable      = true
         heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
-        
+
         [[params.about.sliderItem]]
             image   = "images/stove.jpg"
         [[params.about.sliderItem]]
