@@ -27,8 +27,8 @@ theme = "infinity-hugo"
     # About Section
     [params.about]
         enable      = true
-        heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+        heading     = "We offer design services and will tailor your home to customer specification."
+        description = "Here at Southern, our seasoned faculty and construction management students pour skill and talent into each Southern Tiny Living house. Under supervision, they carefully implement all that is learned in class - right on the job! "
 
         [[params.about.sliderItem]]
             image   = "images/stove.jpg"
@@ -42,13 +42,13 @@ theme = "infinity-hugo"
     [params.service]
         enable      = true
         title       = "Find Better Solutions Build Better Products"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+        subtitle    = "Our building practices are NOAHcertified.org inspected and meet IRC 2018 building code standards."
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
             icon    = "tf-strategy"
-            title   = "Fully Responsive"
+            title   = "Tailor Designs"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0s"
 
@@ -57,7 +57,7 @@ theme = "infinity-hugo"
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
             # use delay for reveal items one by one
             icon    = "tf-circle-compass"
-            title   = "Speed Optimized"
+            title   = "Simple-living."
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0.2s"
 
@@ -78,43 +78,6 @@ theme = "infinity-hugo"
             title   = "Fully SEO Optimized"
             description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
             delay   = "0.6s"
-        
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-strategy"
-            title   = "Fully Responsive"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "0.8s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-circle-compass"
-            title   = "Speed Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-anchor2"
-            title   = "Tons of Feature"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1.2s"
-
-        [[params.service.serviceItem]]
-            # give icon(themefisher icon font), title, description
-            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-            # use delay for reveal items one by one
-            icon    = "tf-globe"
-            title   = "Fully SEO Optimized"
-            description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-            delay   = "1.5s"
-    
     
     # Call to Action Section
     [params.cta]
@@ -126,4 +89,4 @@ theme = "infinity-hugo"
     [params.contact]
         enable      = true
         title       = "Get In Touch"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+        subtitle    = "Contact us if you have additional questions, need to schedule a special appointment, or need additional purchase information."
