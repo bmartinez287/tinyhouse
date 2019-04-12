@@ -17,12 +17,12 @@ theme = "infinity-hugo"
     [params.hero]
         enable      = true
         bg          = "images/bg.jpg"
-        title       = "BRING YOUR PRODUCT TO LIGHT"
-        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-        btnText     = "Get Started"
-        countdownYear = "2019"
-        countdownMonth = "12"
-        countdownDay  = "27"
+       # title       = "BRING YOUR PRODUCT TO LIGHT"
+       # subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+       # btnText     = "Get Started"
+       # countdownYear = "2019"
+       # countdownMonth = "12"
+       # countdownDay  = "27"
 
     # About Section
     [params.about]
