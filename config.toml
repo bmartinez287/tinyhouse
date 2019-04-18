@@ -59,7 +59,7 @@ theme = "infinity-hugo"
             # use delay for reveal items one by one
             icon    = "tf-circle-compass"
             title   = "Simple-living."
-            description = "Strong, energy efficient "Tiny Homes" that won't require your sacrifice of comfort for simple-living"
+            description = "Strong, energy efficient Tiny Homes that won't require your sacrifice of comfort for simple-living"
             delay   = "0.2s"
 
         [[params.service.serviceItem]]
