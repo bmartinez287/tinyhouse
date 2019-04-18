@@ -33,10 +33,10 @@ theme = "infinity-hugo"
 
         [[params.about.sliderItem]]
             image   = "images/stove.jpg"
-        [[params.about.sliderItem]]
-            image   = "images/outside.jpg"
-        [[params.about.sliderItem]]
-            image   = "images/bathtub.jpg"
+       # [[params.about.sliderItem]]
+       #    image   = "images/outside.jpg"
+       # [[params.about.sliderItem]]
+       #    image   = "images/bathtub.jpg"
 
     
     # Service Section
