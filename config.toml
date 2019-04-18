@@ -43,7 +43,7 @@ theme = "infinity-hugo"
     [params.service]
         enable      = true
         title       = "Find Better Solutions Build Better Products"
-        subtitle    = "Our building practices are NOAHcertified.org inspected and meet IRC 2018 building code standards."
+        subtitle    = "Our building practices are NOAHcertified.org inspected and meet IRC 2018 building code standards"
         [[params.service.serviceItem]]
             # give icon(themefisher icon font), title, description
             # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
@@ -77,7 +77,7 @@ theme = "infinity-hugo"
             # use delay for reveal items one by one
             icon    = "tf-globe"
             title   = "NOAH certified"
-            description = "Our building practices are NOAHcertified.org inspected and meet IRC 2018 building code standards."
+            description = "Our building practices are NOAHcertified.org inspected and meet IRC 2018 building code standards"
             delay   = "0.6s"
     
     # Call to Action Section
