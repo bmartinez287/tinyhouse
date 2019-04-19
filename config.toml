@@ -11,7 +11,7 @@ theme = "infinity-hugo"
         home = "Home"
         about = "About"
         service = "Services"
-        cta = "SCHEDULE A VISIT"
+        cta = "Schedule a visit"
         contact = "Contact"
 
     # Hero Area
@@ -87,7 +87,7 @@ theme = "infinity-hugo"
     [params.cta]
         enable      = true
         bg          = "images/call-to-action.jpg"
-        title       = "Schedule a visit"
+        title       = "SCHEDULE A VISIT"
         subtitle    = "See the exterior and interior portions of the tiny house in person."
 
     [params.contact]
