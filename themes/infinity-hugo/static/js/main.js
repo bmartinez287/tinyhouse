@@ -21,10 +21,10 @@ $(document).ready(function(){
      //console.log(scroll);
     if (scroll > 200) {
         //console.log('a');
-        $(".navigation").addClass("animated");
+       // $(".navigation").addClass("animated");
     } else {
         //console.log('a');
-        $(".navigation").removeClass("animated");
+      //  $(".navigation").removeClass("animated");
     }});
     
    /** $year = $('#countdown_dashboard').data('year');
