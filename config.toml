@@ -87,7 +87,7 @@ theme = "infinity-hugo"
     [params.cta]
         enable      = true
         bg          = "images/call-to-action.jpg"
-        title       = "SCHEDULE A VISIT"
+        title       = "Schedule a visit"
         subtitle    = "See the exterior and interior portions of the tiny house in person."
 
     [params.contact]
