@@ -12,6 +12,7 @@ theme = "infinity-hugo"
         about = "About"
         service = "Services"
         cta = "Schedule a visit"
+        specs = "Features"
         contact = "Contact"
 
     # Hero Area

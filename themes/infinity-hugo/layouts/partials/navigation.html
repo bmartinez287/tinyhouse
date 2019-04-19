@@ -17,15 +17,22 @@
                 </li>
                 {{ if .Site.Params.about.enable }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#call-to-action">
-                            {{ with .Site.Params.navigation.cta }} {{ . }} {{ end }}
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#about">
+                            {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
                 {{ if .Site.Params.about.enable }}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ .Site.BaseURL }}#specs">
+                         {{ with .Site.Params.navigation.specs }} {{ . }} {{ end }}
+                    </a>
+                </li>
+                {{ end }}
+                {{ if .Site.Params.about.enable }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#about">
-                            {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#call-to-action">
+                            {{ with .Site.Params.navigation.cta }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
