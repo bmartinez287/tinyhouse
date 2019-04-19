@@ -18,7 +18,7 @@
                 {{ if .Site.Params.about.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#cta">
-                            {{ with .Site.Params.navigation.call-to-action }} {{ . }} {{ end }}
+                            {{ with .Site.Params.navigation.cta }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
