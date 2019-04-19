@@ -41,14 +41,14 @@ $(document).ready(function(){
         },
         omitWeeks: true
     });
-
+    **/
     $(".about-slider").owlCarousel(
         {
         singleItem: true,
         pagination : true,
         autoPlay : 5000,
         }
-    ); **/
+    ); 
 
     //contact form validation
     $("#contact-form").validate({
