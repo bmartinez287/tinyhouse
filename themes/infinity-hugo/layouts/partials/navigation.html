@@ -17,6 +17,13 @@
                 </li>
                 {{ if .Site.Params.about.enable }}
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#cta">
+                            {{ with .Site.Params.navigation.call-to-action }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if .Site.Params.about.enable }}
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#about">
                             {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
                         </a>
