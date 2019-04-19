@@ -27,7 +27,7 @@ $(document).ready(function(){
         $(".navigation").removeClass("animated");
     }});
     
-    $year = $('#countdown_dashboard').data('year');
+   /** $year = $('#countdown_dashboard').data('year');
     $month = $('#countdown_dashboard').data('month');
     $day = $('#countdown_dashboard').data('day');
     $('#countdown_dashboard').countDown({
@@ -48,7 +48,7 @@ $(document).ready(function(){
         pagination : true,
         autoPlay : 5000,
         }
-    );
+    ); **/
 
     //contact form validation
     $("#contact-form").validate({
