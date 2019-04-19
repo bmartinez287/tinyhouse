@@ -1,0 +1,16 @@
+{{ if .Site.Params.service.enable }}
+    {{"<!-- Service Section -->" | safeHTML}}
+    <section id="servicepictures" class="service section">
+        <div class="container">
+            <div class="row">
+                    {{ range .Site.Params.service.serviceimage }}
+                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .delay }}">
+                        <div class="block">
+                            <i class="{{ .image }}"></i>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+{{ end }}
